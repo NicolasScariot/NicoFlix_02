@@ -3,7 +3,7 @@ import { Container, ListMovies } from './styles';
 import {getMoviesSave, deleteMovie} from '../../utils/storage'
 import Header from '../../components/Header';
 import FavoriteItem, {} from '../../components/FavoriteItem'
-import { useNavigation } from '@react-navigation/native';
+import { useNavigation, useIsFocused } from '@react-navigation/native';
 
 
 function Movies() {
